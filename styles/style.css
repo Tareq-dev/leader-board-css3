@@ -106,3 +106,27 @@ Font size: 16px
     border-radius: 10px;
     background-color:#FEE5DF;
   }
+
+
+
+  /* Mobile Media */
+  @media only screen and (max-width:688px){
+    .container{
+      width:100%;
+    }
+   .players, .blogs{
+    grid-template-columns:repeat(1, 1fr);
+  }
+  .top-blogs img{
+
+  }
+
+  .player, .blog-thumbnail, .course-container {
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.blog-details {
+  margin: 0;
+}
+}
